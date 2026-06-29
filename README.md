@@ -1,6 +1,11 @@
 # Why Mean Pooling Works: Quantifying Second-Order Collapse in Text Embeddings
 
-This repository contains code for the paper ["Why Mean Pooling Works: Quantifying Second-Order Collapse in Text Embeddings"](https://arxiv.org/abs/2604.27398), which investigates why modern text encoders work well despite using seemingly coarse mean pooling.
+[![ACL](https://img.shields.io/badge/ACL%202026%20(Main%20Conference)-blue)](https://2026.aclweb.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2604.27398-b31b1b.svg)](https://arxiv.org/abs/2604.27398)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+This repository contains code for the paper [Why Mean Pooling Works: Quantifying Second-Order Collapse in Text Embeddings](https://aclanthology.org/2026.acl-long.2183/).
+This work investigates why modern text encoders work well despite using seemingly coarse mean pooling.
 
 <p align="center">
   <img src="assets/overview.png" alt="Overview" width="640">
@@ -139,13 +144,23 @@ Scatter plot of $d_\mu$ and $d_\Sigma$. See `notebooks/scatter_dmu_dsigma.ipynb`
 ## Citation
 
 ```bibtex
-@misc{hara2026meanpoolingworksquantifying,
-      title={Why Mean Pooling Works: Quantifying Second-Order Collapse in Text Embeddings}, 
-      author={Tomomasa Hara and Hiroto Kurita and Masaaki Imaizumi and Kentaro Inui and Sho Yokoi},
-      year={2026},
-      eprint={2604.27398},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2604.27398}, 
+@inproceedings{hara-etal-2026-mean,
+    title = "Why Mean Pooling Works: Quantifying Second-Order Collapse in Text Embeddings",
+    author = "Hara, Tomomasa  and
+      Kurita, Hiroto  and
+      Imaizumi, Masaaki  and
+      Inui, Kentaro  and
+      Yokoi, Sho",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.2183/",
+    pages = "47180--47201",
 }
 ```
